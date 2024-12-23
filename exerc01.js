@@ -17,7 +17,7 @@ alert(`A multiplicação dos números é ${multiplicacao}`);
 
 
 let divisao = n1 / n2 
-alert(`A divisão dos números é ${divisao}`);
+alert(`A divisão dos números é ${divisao.toFixed(2)}`);
 
 
 let resto = n1 % n2 
